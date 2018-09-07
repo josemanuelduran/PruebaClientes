@@ -9,7 +9,7 @@ module.exports = {
             [
                 // Application enums
                 "app",
-                "client",
+                "customer",
                 "contact",
                 "task",
                 "core",

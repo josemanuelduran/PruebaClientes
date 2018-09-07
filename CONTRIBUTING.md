@@ -71,7 +71,7 @@ Before you submit your Pull Request (PR) consider the following guidelines:
 
 1. In GitHub, send a pull request to `PruebaClientes:develop`.
   * The PR title format should be **Short description**. E.g.:
-    _Add new client_
+    _Add new customer_
   * You should considere add labels to classify the PR: bug, feature, enhancement...
   * If we suggest changes then:
     * Make the required updates.
@@ -146,7 +146,7 @@ To ensure consistency throughout the source code, keep these rules in mind as yo
 
   ```shell
   # good
-  $ git checkout -b add_new_client
+  $ git checkout -b add_new_customer
 
   # bad - too vague
   $ git checkout -b fix_error
@@ -247,7 +247,7 @@ The scope could be anything specifying place of the commit change.
 The following is the list of supported scopes:
 
 * **app**
-* **client**
+* **customer**
 * **contact**
 * **task**
 * **core**
