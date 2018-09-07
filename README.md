@@ -110,28 +110,8 @@ $ ionic cordova build [<platform>] [options]
 | `lint`            | Lint with tslint                                                       |
 | `test`            | Runs Karma tests                                                       |
 | `test:ci`         | Runs Karma tests (run Karma in continuous integration mode)            |
-| `e2e`             | Runs e2e protractor tests                                              |
 | `docs`            | Generates project documentation                                        |
 
-#### Versioning
-
-Run this to bump the version and write the new data back to `package.json`, `config.xml` and `src/app/shared/config/version.config.ts`.
-
-```bash
-$ npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease | from-git]
-```
-
-It will also create a version commit and tag. This behavior can be disabled on the command line by running
-`npm --no-git-tag-version version`. It will fail if the working directory is not clean.
-
-If supplied with `-m` or `--message` config option, npm will use it as a commit message when creating a version commit.
-If the message config contains %s then that will be replaced with the resulting version number. For example:
-
-```bash
-npm version patch -m "Upgrade to %s for reasons"
-```
-
-> See the [npm docs](https://docs.npmjs.com/cli/version) for more info and options.
 
 #### Other scripts commands
 
