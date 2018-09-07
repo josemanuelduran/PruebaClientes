@@ -14,6 +14,7 @@
     ],
     "exclude": [
         "test.ts",
+        "mocks.ts",
         "**/*.spec.ts"
     ]
 }

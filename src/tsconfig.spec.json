@@ -17,6 +17,7 @@
         "test.ts"
     ],
     "include": [
+        "mocks.ts",
         "**/*.spec.ts",
         "**/*.d.ts"
     ],
