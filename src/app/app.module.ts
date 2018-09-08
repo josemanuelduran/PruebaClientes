@@ -9,15 +9,23 @@ import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { MyAppComponent } from './app.component';
-import { CustomersListPageComponent } from '../pages/customer/customers-list/customers-list.component';
-import { ContactsListPageComponent } from '../pages/contact/contacts-list/contacts-list.component';
-import { TasksListPageComponent } from '../pages/task/tasks-list/tasks-list.component';
-import { CustomerDetailComponent } from '../pages/customer/customer-detail/customer-detail.component';
-import { CustomerFormComponent } from '../pages/customer/customer-form/customer-form.component';
-import { ContactDetailComponent } from '../pages/contact/contact-detail/contact-detail.component';
-import { ContactFormComponent } from '../pages/contact/contact-form/contact-form.component';
-import { TaskDetailComponent } from '../pages/task/task-detail/task-detail.component';
-import { TaskFormComponent } from '../pages/task/task-form/task-form.component';
+import {
+    CustomersListPageComponent,
+    CustomerDetailComponent,
+    CustomerFormComponent,
+    CustomerRecordComponent,
+    ContactsListPageComponent,
+    ContactFormComponent,
+    ContactDetailComponent,
+    TasksListPageComponent,
+    TaskDetailComponent,
+    TaskFormComponent
+} from '../pages';
+import {
+    CustomerService,
+    ContactService,
+    TaskService
+} from '../providers';
 
 @NgModule({
   declarations: [
@@ -31,6 +39,7 @@ import { TaskFormComponent } from '../pages/task/task-form/task-form.component';
     ContactFormComponent,
     TaskDetailComponent,
     TaskFormComponent,
+    CustomerRecordComponent,
   ],
   imports: [
     BrowserModule,
@@ -54,7 +63,10 @@ import { TaskFormComponent } from '../pages/task/task-form/task-form.component';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    CustomerService,
+    ContactService,
+    TaskService
   ]
 })
 export class AppModule {}
