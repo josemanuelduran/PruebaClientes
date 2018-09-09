@@ -26,7 +26,8 @@ import {
 import {
     CustomerService,
     ContactService,
-    TaskService
+    TaskService,
+    MessagesService
 } from '../providers';
 
 @NgModule({
@@ -70,7 +71,8 @@ import {
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     CustomerService,
     ContactService,
-    TaskService
+    TaskService,
+    MessagesService,
   ]
 })
 export class AppModule {}
