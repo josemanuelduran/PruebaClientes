@@ -4,8 +4,8 @@ A hybrid app allowing to manage the list of customers, their contacts and tasks 
 
 ## Project Summary
 
-* Tech. Stack: Ionic 3, Angular 4.
-* Platforms: Android, iOS, Windows (Universal Windows Platform apps). Currently only packaged for Android.
+* Tech. Stack: Ionic 3, Angular 5.
+* Platforms: Android, iOS.
 * Form Factor: Smartphones.
 
 ## Contact
