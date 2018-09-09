@@ -19,7 +19,9 @@ import {
     ContactDetailComponent,
     TasksListPageComponent,
     TaskDetailComponent,
-    TaskFormComponent
+    TaskFormComponent,
+    CustomersListFilterComponent,
+    CustomersListItemComponent
 } from '../pages';
 import {
     CustomerService,
@@ -40,6 +42,8 @@ import {
     TaskDetailComponent,
     TaskFormComponent,
     CustomerRecordComponent,
+    CustomersListFilterComponent,
+    CustomersListItemComponent,
   ],
   imports: [
     BrowserModule,

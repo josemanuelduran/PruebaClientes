@@ -8,3 +8,5 @@ export * from './contact/contacts-list/contacts-list.component';
 export * from './task/tasks-list/tasks-list.component';
 export * from './task/task-detail/task-detail.component';
 export * from './task/task-form/task-form.component';
+export * from './customer/customers-list/components/customers-list-filter/customers-list-filter.component';
+export * from './customer/customers-list/components/customers-list-item/customers-list-item.component';
